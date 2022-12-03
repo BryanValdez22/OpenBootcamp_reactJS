@@ -7,6 +7,7 @@ import TaskComponent from './components/pure/task';
 import TaskListComponent from './components/container/task_list';
 import Ejemplo1 from './hooks/ejemplo1';
 import Ejemplo2 from './hooks/ejemplo2';
+import MiComponenteConContexto from './hooks/ejemplo3'
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
         {/* <TaskListComponent></TaskListComponent> */}
         {/* ejemplo de uso de HOOKS */}
         {/* <Ejemplo1></Ejemplo1> */}
-        <Ejemplo2></Ejemplo2>
+        {/* <Ejemplo2></Ejemplo2> */}
+        <MiComponenteConContexto></MiComponenteConContexto>
 
       </header>
     </div>
